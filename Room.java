@@ -1,24 +1,23 @@
 import java.util.Random;
 
 public class Room {
-    private final String id;
+    private final int id;
     private double currentT;
     private boolean heatingEnabled;
     private boolean coolingEnabled;
 
 
-    // Constructor for the Room class
-    public Room(String id) {
+    public Room(int id) {
         this.id = id;
-        this.currentT = generateRandomTemperature(10, 40);;
+        this.currentT = generateRandomT(10, 40);;
         this.heatingEnabled = false;
         this.coolingEnabled = false;
     }
 
-     /**
+    /**
      * @return room id
      */
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -52,7 +51,7 @@ public class Room {
      * @return a random temperature within the specified range
      */
 
-    public double generateRandomTemperature(double min, double max) {
+    public double generateRandomT(double min, double max) {
         Random random = new Random();
         return min + (max - min) * random.nextDouble();
     }
