@@ -4,7 +4,7 @@ Task Description:
 
 - All Rooms should have a unique ID, a current temperature, a status for if heating is enabled (i.e. a heater), and a status for if cooling is
 enabled (i.e. an air conditioner).
-   -Initially a rooms temperature should be a random value between 10 degrees and 40 degrees.
+   - Initially a rooms temperature should be a random value between 10 degrees and 40 degrees.
 
 - An Apartment should have the same functionality as a room with an additional property for the owners name.
 
