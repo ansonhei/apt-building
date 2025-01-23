@@ -15,6 +15,34 @@ public class Room {
         this.coolingEnabled = false;
     }
 
+     /**
+     * @return room id
+     */
+    public String getId() {
+        return id;
+    }
+
+    /**
+     * @return current temperature of the room
+     */
+    public double getCurrentT() {
+        return currentT;
+    }
+
+    /**
+     * @return heating status
+     */
+    public boolean isHeatingEnabled() {
+        return heatingEnabled;
+    }
+
+    /**
+     * @return cooling status
+     */
+    public boolean isCoolingEnabled() {
+        return coolingEnabled;
+    }
+
 
     /**
      * Generates a random temperature between the specified minimum and maximum values.
@@ -29,7 +57,7 @@ public class Room {
         return min + (max - min) * random.nextDouble();
     }
 
-
+    // toString method
     @Override
     public String toString() {
         return "Room [id=" + id + ", currentT=" + currentT + ", heatingEnabled=" + heatingEnabled + ", coolingEnabled="
