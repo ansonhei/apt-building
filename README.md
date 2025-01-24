@@ -40,11 +40,11 @@ should also have a requested temperature of 25.0 degrees.
 ## Procedure
 - Run the main application Main.java
 - A menu will pop up with 4 options for user to choose 
-   Menu:
-   - 1. Set Temperature
-   - 2. Add Room
-   - 3. Simulate Temperature Changes
-   - 4. Exit
+Menu:
+1. Set Temperature
+2. Add Room
+3. Simulate Temperature Changes
+4. Exit
 - User can input number 1 - 4:
    - Option 1) Requested temperature will be asked and new requested temperature of the building will be set. 
    - Option 2) New room id will be requested, then room type and owner name will be requested next.
