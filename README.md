@@ -41,15 +41,15 @@ should also have a requested temperature of 25.0 degrees.
 - Run the main application Main.java
 - A menu will pop up with 4 options for user to choose 
    Menu:
-   1. Set Temperature
-   2. Add Room
-   3. Simulate Temperature Changes
-   4. Exit
+   - 1. Set Temperature
+   - 2. Add Room
+   - 3. Simulate Temperature Changes
+   - 4. Exit
 - User can input number 1 - 4:
-   Option 1) Requested temperature will be asked and new requested temperature of the building will be set. 
-   Option 2) New room id will be requested, then room type and owner name will be requested next.
-   Option 3) Temperature of each room will be increased or decreased according the heating and cooling status.
-   Option 4) The application will be terminated.
+   - Option 1) Requested temperature will be asked and new requested temperature of the building will be set. 
+   - Option 2) New room id will be requested, then room type and owner name will be requested next.
+   - Option 3) Temperature of each room will be increased or decreased according the heating and cooling status.
+   - Option 4) The application will be terminated.
 
 - The current state of the building will be printed at the beginning and after every action.
 - The temperature will only alter after option 3 and remain unchange if it is close enough to requested one.
