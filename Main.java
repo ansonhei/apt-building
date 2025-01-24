@@ -105,6 +105,7 @@ public class Main {
             else {
                 System.out.println("Invalid input. Please enter a number.");
                 scanner.nextLine();
+            }
         }
 
         scanner.close();
