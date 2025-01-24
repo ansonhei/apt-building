@@ -2,10 +2,18 @@ public class CommonRoom extends Room {
 
     private final String type;
 
+    // limiting the types of common rooms to 'Gym', 'Library', and 'Laundry'
     public CommonRoom(int id, String type) {
         super(id);
-        this.type = type;
-
+        switch (type.toUpperCase()) {
+            case "GYM":
+            case "LIBRARY":
+            case "LAUNDRY":
+                this.type = type;
+                break;
+            default:
+                throw new IllegalArgumentException("Invalid common room type. Must be Gym, Library, or Laundry.");
+        }
     }
 
     /**
