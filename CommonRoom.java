@@ -25,12 +25,11 @@ public class CommonRoom extends Room {
 
     @Override
     public String toString() {
-        return "CommonRoom{" +
-                "id='" + getId() + '\'' +
+        return "\nCommonRoom:" +
+                "\nid='" + getId() + '\'' +
                 ", type='" + type + '\'' +
                 ", currentTemperature=" + getCurrentT() +
                 ", heatingEnabled=" + isHeatingEnabled() +
-                ", coolingEnabled=" + isCoolingEnabled() +
-                '}';
+                ", coolingEnabled=" + isCoolingEnabled();
     }
 }

@@ -17,13 +17,12 @@ public class Apartment extends Room{
 
     @Override
     public String toString() {
-        return "Apartment{" +
-                "id='" + getId() + '\'' +
+        return "\nApartment: " +
+                "\nid='" + getId() + '\'' +
                 ", ownerName='" + ownerName + '\'' +
                 ", currentTemperature=" + getCurrentT() +
                 ", heatingEnabled=" + isHeatingEnabled() +
-                ", coolingEnabled=" + isCoolingEnabled() +
-                '}';
+                ", coolingEnabled=" + isCoolingEnabled();
     }
 
 }
