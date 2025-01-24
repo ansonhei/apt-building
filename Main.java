@@ -79,6 +79,10 @@ public class Main {
                             // Request common room type
                             System.out.print("Enter common room type (Gym/Library/Laundry): ");
                             String commonType = scanner.nextLine();
+                            if (!commonType.toUpperCase().equals("GYM") && !commonType.toUpperCase().equals("LIBRARY") && !commonType.toUpperCase().equals("LAUNDRY")) {
+                                System.out.println("Invalid common room type. Must be Gym, Library, or Laundry.");
+                                break;
+                            }
                             building.addRoom(new CommonRoom(id, commonType));
                         } else {
                             System.out.println("Invalid room type.");
