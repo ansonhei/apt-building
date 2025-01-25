@@ -1,5 +1,5 @@
-src/main/java/Building.class
-src/main/java/Room.class
-src/main/java/Main.class
-src/main/java/Apartment.class
-src/main/java/CommonRoom.class
+main/java/Main.class
+main/java/CommonRoom.class
+main/java/Apartment.class
+main/java/Building.class
+main/java/Room.class

@@ -1,9 +1,6 @@
-package src.main.java;
+package main.java;
 import java.util.ArrayList;
 import java.util.List;
-
-// import Room;
-import src.main.java.Room;
 
 
 public class Building {
