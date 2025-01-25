@@ -37,6 +37,23 @@ should also have a requested temperature of 25.0 degrees.
 6. Cooling is enabled if the room's temperature is above the `requestedTemperature + tolerance`, else is disabled.
 7. Initial state of the building have 2 apartment (id: 101 with owner Tim, id: 102 with owner Amy), Gym (id: 103) and Library (id:104).
 
+## Running the Application
+- Run the application locally:
+  - Execute the following command:
+      ```bash
+      java -cp target/apt-building-1.0.0.jar Main
+      ```
+
+- Using docker:
+   - Build the Docker image:
+     ```bash
+      docker build -t apt-building:1.0.0 .
+     ```
+   - Run the application in a Docker container:
+     ```bash
+     docker run --rm -it apt-building:1.0.0
+     ```
+
 ## Procedure
 - Run the main application Main.java
 - A menu will pop up with 4 options for user to choose 
@@ -54,5 +71,11 @@ Menu:
 - The current state of the building will be printed at the beginning and after every action.
 - The temperature will only alter after option 3 and remain unchange if it is close enough to requested one.
 
+##Features
+
+- Fully packaged with Maven for dependency and build management.
+- Can be run locally or containerized using Docker.
+- Dynamic menu-driven application for managing building temperatures and rooms.
+- Temperature simulation logic based on heating/cooling thresholds.
 
 
