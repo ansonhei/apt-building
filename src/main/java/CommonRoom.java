@@ -1,4 +1,3 @@
-package main.java;
 public class CommonRoom extends Room {
 
     private final String type;

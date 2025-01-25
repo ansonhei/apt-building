@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <!-- Add your source directory -->
+    <classpathentry kind="src" path="src/main/java"/>
+    
+    <!-- JRE System Library -->
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    
+    <!-- Output directory for compiled classes -->
+    <classpathentry kind="output" path="target/classes"/>
+</classpath>
