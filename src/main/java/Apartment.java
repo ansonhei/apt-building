@@ -1,4 +1,4 @@
-package main.java;
+package src.main.java;
 public class Apartment extends Room{
 
     private final String ownerName;
