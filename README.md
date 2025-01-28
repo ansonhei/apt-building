@@ -70,12 +70,14 @@ Menu:
 
 - The current state of the building will be printed at the beginning and after every action.
 - The temperature will only alter after option 3 and remain unchange if it is close enough to requested one.
+- Room temperature and controls will also be recalculated periodically every 10 seconds in the background, regardless of user input.
 
-##Features
+## Features
 
 - Fully packaged with Maven for dependency and build management.
 - Can be run locally or containerized using Docker.
 - Dynamic menu-driven application for managing building temperatures and rooms.
 - Temperature simulation logic based on heating/cooling thresholds.
+- Automated periodic recalculation of room temperatures and controls without blocking user input.
 
 
